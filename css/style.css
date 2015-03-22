@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #EBEBE0;
+	/*backgroud color for design*/
+	background-color: LightGray;
 }
 ol, ul {
 	list-style: none;
@@ -47,7 +48,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* div boarder for design*/
 div {
-	border: 5em;
+	border: 1px solid;
 }
+/* what is Chocolate?*/
