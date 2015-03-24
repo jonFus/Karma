@@ -53,3 +53,14 @@ div {
 	border: 1px solid;
 }
 /* what is Chocolate?*/
+li {
+	display: inline;
+}
+header {
+	height: 30em;
+	background-color: white;
+	display: inline;
+}
+#logo{
+	display: inline;
+}
