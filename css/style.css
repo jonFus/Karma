@@ -56,11 +56,24 @@ div {
 li {
 	display: inline;
 }
-header {
-	height: 30em;
+#nav {
+	height: 4em;
 	background-color: white;
-	display: inline;
+	margin: 3 3 3 3;
 }
-#logo{
-	display: inline;
+#nav img {
+	float: left;
+	/*why didn't display: inline work?*/
+	margin-left: 5em;
+	margin-top: 0.5em;
+
+}
+#nav ul{
+	margin-top: 1.5em;
+	margin-right: 4em;
+	float: right;
+}
+#nav a {
+text-decoration: none;
+color: gray;	
 }
