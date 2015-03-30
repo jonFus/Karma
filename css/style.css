@@ -58,7 +58,7 @@ div {
 	background-color: #fff;
 }
 .top-navigation  .content{
-width: 1200px;
+width: 1250px;
 height: 70px;
 margin: 0 auto;
 /*The first value ("0") is the top and bottom margin, the second value ("auto") is the left and right margin*/
@@ -76,7 +76,7 @@ letter-spacing: 0.03em;
 }
 .top-navigation .logo{
 	height: 70px;
-	margin-left: 2em;
+	margin-left: 4em;
 }
 .top-navigation  .links > li {
 display: inline-block;
@@ -86,6 +86,35 @@ font-size: 1.05em;
 .top-navigation .links a{
 	text-decoration: none;
 	color: #6D7878
-
-
+}
+.img-section{
+	background-image: url("../images/first-backgroun.jpg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 670px;
+	background-size: cover;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+/*how do I lower font thickness?*/
+.img-section .title{
+font-size: 50px;
+margin-top: 210px;
+}
+.img-section .tag-line{
+	font-size: 25px;
+	margin-top: 20px;
+}
+.img-section .button{
+	margin-top: 25px;
+	background-color: #FA6032;
+	font-size: 1.1em;
+	color: #ffffff;
+	padding: 15px 30px;
+	border-style: none;
+	border-radius: 3px;
+}
+.img-section .button:hover { 
+    background-color: #E34B1E;
 }
