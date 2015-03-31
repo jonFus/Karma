@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	/*backgroud color for design*/
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 }
 ol, ul {
 	list-style: none;
@@ -66,13 +66,12 @@ margin: 0 auto;
 /*why is positioning done before all the content?*/
 .top-navigation  .links {
 float: right;
-margin: 1.5em;
+margin: 1.6em;
 width: 600px;
 text-align: center;
 font-family: 'Roboto', sans-serif; 
 font-size: 16px; 
 color: #838994; 
-letter-spacing: 0.03em;
 }
 .top-navigation .logo{
 	height: 70px;
@@ -89,6 +88,7 @@ font-size: 1.05em;
 }
 .img-section{
 	background-image: url("../images/first-backgroun.jpg");
+	/*why do i need the ../ before the images folder*/
 	background-position: bottom;
 	background-repeat: no-repeat;
 	height: 670px;
@@ -118,3 +118,30 @@ margin-top: 210px;
 .img-section .button:hover { 
     background-color: #E34B1E;
 }
+.three-icon{
+	background-color: #fff;
+	width: 1400px;
+	margin-left: auto;
+  	margin-right: auto;
+  	border-bottom-color: gray;
+}
+.three-icon .title{
+	text-align: center;
+	font-size: 2.7em;
+	
+	font-family: 'Roboto', sans-serif;
+	margin-top: 120px;
+}
+.three-icon ul{
+	text-align: center;
+}
+.three-icon li{
+	display: inline-block;
+	margin:60px 60px 150px 60px; /*why doesnt center all divs or li*/
+}
+.three-icon p{
+	margin-top: 35px;
+	font-size: 1.5em;
+	font-family: 'Roboto', sans-serif;
+}
+/*why does canceling the border 1px add a gap?*/
