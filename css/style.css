@@ -56,6 +56,8 @@ div {
 
 .top-navigation{
 	background-color: #fff;
+	position: fixed;
+	width: 100%
 }
 .top-navigation  .content{
 width: 1250px;
@@ -145,3 +147,4 @@ margin-top: 210px;
 	font-family: 'Roboto', sans-serif;
 }
 /*why does canceling the border 1px add a gap?*/
+/*cant add icon images to git*/
