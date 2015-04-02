@@ -148,3 +148,16 @@ margin-top: 210px;
 }
 /*why does canceling the border 1px add a gap?*/
 /*cant add icon images to git*/
+.footer{
+	margin-left: auto;
+  	margin-right: auto;
+}
+.footer p {
+	text-align: center;
+}
+.footer ul{
+	text-align: center;
+}
+.footer li{
+display: inline-block;
+}
